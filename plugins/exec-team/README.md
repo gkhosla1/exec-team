@@ -29,8 +29,14 @@ The team reads only one email label or folder you choose, plus any sources you l
 Any system can report to the team by emailing a digest into the approved label. Optionally end the email with a line `--- machine-readable ---` followed by JSON, and the brief will use those exact numbers.
 
 ## Install
-Shared within your organization: install from the org plugin catalog. Outside it:
-`/plugin install exec-team --marketplace gkhosla1/exec-team`
+**Claude Code (terminal):**
+```
+/plugin marketplace add gkhosla1/exec-team
+/plugin install exec-team@exec-team
+```
+On Claude Code v2.1.275 or later you can do both in one step: `/plugin install exec-team --marketplace gkhosla1/exec-team`. Local sessions in the desktop app's Code tab use the same plugins once installed.
+
+**claude.ai (chat, Projects, scheduled tasks):** upload the plugin to your account, or share it within your organization from the org plugin catalog.
 
 ## Requirements
 - An email connector (see CONNECTORS.md) for monitoring and emailed briefs. A chat connector or notifications work for delivery too. Consulting needs no connector.
