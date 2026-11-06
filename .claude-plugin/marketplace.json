@@ -11,7 +11,7 @@
       "name": "exec-team",
       "source": "./plugins/exec-team",
       "description": "A virtual executive team for solo builders: consult specialist executives on ideas and get a short, scheduled brief with action items.",
-      "version": "0.2.0"
+      "version": "0.3.0"
     }
   ]
 }

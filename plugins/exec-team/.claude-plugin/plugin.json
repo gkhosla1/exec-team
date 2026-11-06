@@ -1,6 +1,6 @@
 {
   "name": "exec-team",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A virtual executive team for solo builders: consult specialist executives on ideas (one at a time or as a meeting) and get a short, scheduled brief with action items. Works for any project.",
   "author": {
     "name": "Griffin Khosla"

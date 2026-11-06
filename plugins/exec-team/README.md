@@ -7,7 +7,7 @@ A virtual executive team for people building projects with Claude. Each executiv
 | Skill | What it does | Say |
 |---|---|---|
 | **exec-setup** | Interviews you about your project, then writes the team config, company brief, decisions log and action list, and schedules your brief | "Set up my exec team" |
-| **exec-consult** | Ask one executive, the customer panel, or hold a meeting: full (each executive answers independently) or quick (one pass, cheaper). The Chief of Staff summarizes picks, votes, disagreements and the decision only you can make. Also runs retros on past decisions | "Ask Legal about…", "Ask the team: should we…", "Quick meeting on…", "Run a retro" |
+| **exec-consult** | Ask one executive, the customer panel, or hold a meeting. The team picks only the relevant roles (and pulls in others whose triggers match, e.g. Legal when personal data is shown), shows who's in, and goes ahead. Meetings are full (each executive answers independently) or quick (one pass). The Chief of Staff summarizes picks, votes, disagreements and the decision only you can make. Also runs retros on past decisions | "Ask Legal about…", "Ask the team: should we…", "Quick meeting on…", "Run a retro" |
 | **exec-briefing** | Gathers from your approved sources, writes a brief under ~200 words with at most 3 owned action items, delivers it (email, chat channel or notification), and updates the action list and brief log | Runs on your schedule, or "run my exec brief" |
 
 ## Default roster
@@ -43,4 +43,4 @@ On Claude Code v2.1.275 or later you can do both in one step: `/plugin install e
 - Scheduled briefs need an environment that supports scheduled tasks.
 
 ## Version
-0.2.0 (see CHANGELOG.md). Built by Griffin Khosla.
+0.3.0 (see CHANGELOG.md). Built by Griffin Khosla.

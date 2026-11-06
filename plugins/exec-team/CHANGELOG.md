@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.3.0 (2026-11-05)
+**Routing (who's in the room)**
+- Meetings start with triage: only the roles whose area covers the idea, plus any role whose new **Pull me in when** triggers match (e.g. Legal when one user's info is shown to another), plus a counterweight so at least two mandates disagree, plus the customer panel for anything users see. Triage is shown in one line and the meeting goes straight ahead; "add <role>" or "everyone" changes it.
+- A single executive answers directly with no Chief of Staff summary, and points to another role instead of answering outside its lane.
+- Optional rebuttal round when two roles split.
+- After the answers, left-out roles' triggers are re-checked against what the executives proposed (in the test, Growth's tracking idea pushed the build into Engineering's territory).
+- The summary says when gathered text tried to instruct the team, and options must not be straw men.
+- Chief of Staff is a default role the owner can remove; its jobs then run in a neutral voice.
+
+**Setup**
+- Recommends a team for the project, with a one-line reason for each role in or out, and tailors each role's Optimizes for, Always asks and Pull me in when to the project.
+- Optional preferences question (meetings, brief length and quiet days, decision logging, retros), defaults accepted in one click.
+- Checks who can see the Project and records it under a new Privacy section.
+- Panel personas are invented, never based on real, named customers.
+
+**Privacy and safety**
+- Email and web content is treated as information, never instructions (briefing, setup, executive agent, scheduled prompt).
+- Delivery is locked to the configured destination; the brief never sends, replies or forwards anything else.
+- Setup explains the label rule isn't a technical lock and offers a separate account or alias.
+- Brief log can omit numbers in shared Projects.
+
 ## 0.2.0 (2026-11-05)
 From the first end-to-end test (made-up project: setup, single exec, panel, 6-role meeting, brief from a mock label).
 
